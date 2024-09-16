@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Handjet:wght@100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Fascinate Inline';
+    background: linear-gradient(to left, black, gray);
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+  
+    border-radius: 25px;
+    
+}
+nav:hover{
+    box-shadow: 5px 5px 5px 5px darkorange;
+    transition: 0.3s;
+    border: solid black;
+    border-radius: 25px;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.inicial{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow:  inset 18px 20px 1px darkorange;
+   
+}
+
+.Bio_tutlo{
+color: black;
+}
+
+
+
+
+#card1{
+    display: flex;
+    justify-content: center;
+    border: solid black;
+    border-radius: 100px; 
+    width: 40rem;
+    color: rgba(0, 0, 0, 0.973);
+    padding: 28px;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    box-shadow: 20px -6px 1px darkorange;
+}
+
+#card2{
+    display: flex;
+    border: solid black;
+    border-radius: 100px; 
+    width: 40rem;
+    color: rgba(0, 0, 0, 0.973);
+    padding: 28px;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    box-shadow: 20px -6px 1px darkorange
+
+  
+}
+
+#card2-p{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.img-bio{
+    width: 400px;
+    height: 15%;
+    position: relative;
+    border-radius: 300px;
+    border: solid black;
+    background-color: black;
+    box-shadow: 20px -6px 1px darkorange;
+   
+}
+
+#img-L{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+    padding: 0px;
+}
+
+footer{
+    height: 10rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+#rodape{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icone1{
+    width: 50px;
+}
+
+
+.icone2{
+    width: 50px;
+}
+
+.icone3{
+    width: 50px;
+}
+
+:hover.icone1{
+    box-shadow: 5px 5px 5px orange;
+    transition: 0.2s;
+}
+
+:hover.icone2{
+    box-shadow: 5px 5px 5px gray;
+    transition: 0.2s;
+}
+
+:hover.icone3{
+    
+    box-shadow: -5px -5px 5px blue;
+    transition: 0.2s;
+}
